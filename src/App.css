@@ -1,0 +1,59 @@
+/* Basic styling for the app */
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  background: url('./assets/Nitro_Wallpaper_02_3840x2400.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: black; /* Updated text color to black */
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; /* Updated text color to black */
+  padding: 50px 20px;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* White with transparency */
+  color: black;
+}
+
+.contact-info {
+  margin: 30px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  color: whitesmoke; /* Updated text color to black */
+}
+
+.contact-info h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.contact-info p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.contact-info a {
+  color: blue; /* You can adjust the link color if needed */
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
